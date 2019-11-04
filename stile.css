@@ -1,0 +1,29 @@
+
+@media screen and (max-width: 425px) {
+    body {
+        margin: 0;
+        border: 0;
+    }
+   div{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       background-color: black;
+       
+   }
+   
+    h1{
+    display: flex;
+    color: aqua;
+    }
+    h2{
+        display: flex;
+        color: aqua;
+    }
+    img{
+        widows: 500px;
+        height: 274px;
+        margin-bottom: -5px;
+    }
+  }
+  
