@@ -1,29 +1,137 @@
 
-@media screen and (max-width: 425px) {
+    @media screen and (max-width: 425px) {
+
     body {
         margin: 0;
         border: 0;
+        background-color: black;
     }
-   div{
+    .div-img1 {
+        align-items: center;
+        height: 346px;
+        display: flex;
+        flex-direction: column;
+        font-size: 10px;
+        text-align: left;
+        margin-top: 70px;
+        border: 0;
+    }
+    .div-img3 {
+        align-items: center;
+        height: 346px;
+        display: flex;
+        flex-direction: column;
+        font-size: 10px;
+        text-align: left;
+        margin-top: 70px;
+    }
+    div{
        display: flex;
        justify-content: center;
        align-items: center;
        background-color: black;
+       width: 425px;
+       margin: 0;
        
-   }
-   
-    h1{
-    display: flex;
-    color: aqua;
     }
-    h2{
+    .Banco {
+        justify-content:space-between;
+        align-items: center;
+        background-color: black;
+        height:  213px;
+        width: 425px;
+        
+    }
+    
+    h1{
+        font-family: 'Fjalla One', sans-serif;
         display: flex;
         color: aqua;
+        z-index: 1;
     }
-    img{
-        widows: 500px;
+    h2{
+        font-family: 'Fjalla One', sans-serif;
+        display: flex;
+        color: aqua;
+        z-index: 2;
+    }
+    .img2{
+        width: 425px;
         height: 274px;
         margin-bottom: -5px;
     }
-  }
-  
+    .img1{
+    width: 185px;
+    height: 180px;
+    background-size: cover;
+    margin-top: -11px;
+
+    
+    }
+    .img3{
+    width: 185px;
+    height: 180px;
+    background-size: cover;
+    
+    }
+    h3{
+        font-family: 'Fjalla One', sans-serif;
+        width: 168px;
+        height: 50px;
+        color: aqua;
+    }
+    h4{
+        font-family: 'Fjalla One', sans-serif;
+        width: 168px;
+        height: 50px;
+        color: aqua;
+
+    }
+    .final{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aquamarine;
+    width: 425px;
+    margin-top: 90px;
+    height: 50px ;    
+    }
+    .info{
+        width: 40px;
+        height: 20px;
+        margin-top: 200px;
+    }
+img{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+    width: 32px;
+}
+article{
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+    justify-content: center;
+    margin-bottom: -54px;
+    text-decoration: none;
+    color: black;
+}
+.infodiv{
+    background-color: #79f4d3;
+    width: 91px;
+    height: 44px;
+    margin-top: -38px;
+    border-radius: 19%;
+}
+
+a{
+    color: black;
+}
+    }
+
+    button{
+        background-color: aqua;
+        border-style: none;
+        height: 25px;
+        border-radius: 30%;
+    }
