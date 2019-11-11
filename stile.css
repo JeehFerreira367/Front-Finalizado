@@ -6,6 +6,25 @@
         border: 0;
         background-color: black;
     }
+    #hamburguer {
+        margin-right: 60px;
+        width: 40px;
+        height: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 13px
+    }
+    
+    #hamburguer span {
+        width: 40px;
+        height: 6px;
+        background-color: white;
+        border-radius: 20px;
+        margin-left: 192px;
+        margin-top: 5px;  
+    }   
     .div-img1 {
         align-items: center;
         height: 346px;
@@ -48,6 +67,9 @@
         display: flex;
         color: aqua;
         z-index: 1;
+        margin-left:6px;
+        font-family: 'Fjalla One', sans-serif;
+
     }
     h2{
         font-family: 'Fjalla One', sans-serif;
