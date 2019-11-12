@@ -68,6 +68,7 @@
         color: aqua;
         z-index: 1;
         margin-left:6px;
+        
         font-family: 'Fjalla One', sans-serif;
 
     }
@@ -156,4 +157,12 @@ a{
         border-style: none;
         height: 25px;
         border-radius: 30%;
+    }
+    h5{
+        font-size: 14pt;
+        font-family: 'Fjalla One', sans-serif;
+        display: flex;
+        color: aqua;
+        z-index: 1;
+        margin-left:6px;
     }
