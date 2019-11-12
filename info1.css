@@ -64,7 +64,8 @@
     }   
     h1{
         font-family: 'Fjalla One', sans-serif;
-        margin-left: 6px;
+        margin-left: 20px;
+
 
     }
     h2{
@@ -75,7 +76,7 @@
 
     }
     .linha2{
-        margin-top: -50px;
+        margin-top: -40px;
         margin-bottom: 11px;
         border: 0;
         border-top: 1px solid rgba(0,0,0,.1);
@@ -94,7 +95,7 @@
     h4{
         color: aqua;
         margin-left: 8px;
-        font-size: 11pt;
+        font-size: 9pt;
         font-family: 'Fjalla One', sans-serif;
 
     }
